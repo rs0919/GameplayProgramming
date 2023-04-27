@@ -20,8 +20,8 @@ If you are in the rare situation where there are two peer-reviewers on a single 
 
 ## Peer-reviewer Information
 
-* *name:* [your name here] 
-* *email:* [your @ucdavis.edu email address here]
+* *name:* Rohith Saravana 
+* *email:* rsaravana@ucdavis.edu
 
 ### Description ###
 
