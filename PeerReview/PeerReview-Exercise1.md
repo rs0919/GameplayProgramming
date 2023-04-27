@@ -47,14 +47,14 @@ The following are the criteria by which you should assess your peer's solution o
 
 ### Stage 1 ###
 
-- [ ] Perfect
+- [x] Perfect
 - [ ] Great
-- [x] Good
+- [ ] Good
 - [ ] Satisfactory
 - [ ] Unsatisfactory
 
 #### Justification ##### 
-Write Justification here.
+When the right arrow is pressed, the captain moves right in the same way that he moves left. Also the captain sprite flips orientation so he is facing right as he is moving right. The implementation is correct, because the CaptainController script was updated so that when the right arrow is pressed, the moveRight script is called which adds positive velocity to the player character.
 
 ### Stage 2 ###
 
