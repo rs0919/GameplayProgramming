@@ -69,14 +69,14 @@ All Three pirate behaviors were implemented correctly. For the slow worker, the 
 
 ### Stage 3 ###
 
-- [ ] Perfect
+- [x] Perfect
 - [ ] Great
-- [x] Good
+- [ ] Good
 - [ ] Satisfactory
 - [ ] Unsatisfactory
 
 #### justification ##### 
-Write justification here.
+In the Motivate function, the number 1, 2, or 3 is randomly generated. Each of the different pirate behaviors (slow, normal, fast) has its own number and it is instantiated if the number is called. In the game, if the captain motivates an exhausted pirate, they will be assigned one of these behaviors and work for the appropriate duration. If the captain motivates them while they are still working...
 
 ### Stage 4 ###
 
