@@ -69,14 +69,16 @@ All Three pirate behaviors were implemented correctly. For the slow worker, the 
 
 ### Stage 3 ###
 
-- [x] Perfect
-- [ ] Great
+- [ ] Perfect
+- [x] Great
 - [ ] Good
 - [ ] Satisfactory
 - [ ] Unsatisfactory
 
 #### justification ##### 
-In the Motivate function, the number 1, 2, or 3 is randomly generated. Each of the different pirate behaviors (slow, normal, fast) has its own number and it is instantiated if the number is called. In the game, if the captain motivates an exhausted pirate, they will be assigned one of these behaviors and work for the appropriate duration. If the captain motivates them while they are still working...
+In the Motivate function, the number 1, 2, or 3 is randomly generated. Each of the different pirate behaviors (slow, normal, fast) has its own number and it is instantiated if the number is called. In the game, if the captain motivates an exhausted pirate, they will be assigned one of these behaviors and work for the appropriate duration. If the captain motivates them while they are still working, then the pirate behavior will reset and be reassigned another random behavior. The Motivation function correctly uses the Object.Instantiate(ScriptableObject.CreateInstance<SlowWorkPirateCommand>()); code to create a new instance of IPirateCommands.
+
+The only error I noticed was that the Start function calls all three instances of the pirate behavior consecutively. Everytime the game starts, the pirates always start with the fastworker behavior. If this was the intended goal, then the two previous lines (add link?) should be removed and you only need to instantiate the fastWorker behavior. If this was not intended and it is supposed to be random, then the code block used in the Motivate function should also be used in the Start function to give the pirates a random behavior when the game starts.
 
 ### Stage 4 ###
 
