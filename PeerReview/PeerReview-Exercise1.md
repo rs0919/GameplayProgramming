@@ -58,14 +58,14 @@ When the right arrow is pressed, the captain moves right in the same way that he
 
 ### Stage 2 ###
 
-- [ ] Perfect
+- [x] Perfect
 - [ ] Great
-- [x] Good
+- [ ] Good
 - [ ] Satisfactory
 - [ ] Unsatisfactory
 
 #### Justification ##### 
-Write Justification here.
+All Three pirate behaviors were implemented correctly. For the slow worker, the script randomly generates a work duration of 20 to 40 seconds and it instantiates the appropriate prefab every 8 seconds. For the normal worker, the work duration is randomly generated from 10 to 20 seconds and a prefab spawns every 4 seconds. For the fast worker, the work duration is randomly generated from 5 to 10 seconds, and a prefab spawns every 2 seconds. Also, for all 3 scripts, the Execute function is responsible for instantiating the prefab and correctly returns true if the pirate is working. If the pirate has worked for the work duration period, then it will no longer spwan objects and the function returns false, so the pirate is now exhausted.
 
 ### Stage 3 ###
 
