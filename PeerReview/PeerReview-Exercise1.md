@@ -84,12 +84,14 @@ The only error I noticed was that the Start function calls all three instances o
 
 - [ ] Perfect
 - [ ] Great
-- [ ] Good
+- [x] Good
 - [ ] Satisfactory
 - [ ] Unsatisfactory
 
 #### justification ##### 
-Write justification here.
+The fire2 input was used to implement a jump movement for the Captain. The MoveJump script is called everytime time fire2 (left alt) is pressed. The MoveJump script adds positive vertical velocity to the Captain so that he jumps in the air. tThe captain can jump in place, but can also allows jump while running left or right. When the captain reaches its max height, he will fall back to the ground, like how a normal jump works. The fire2 also only works when the key is initally pressed, holding it or letting go does not affect the jump. Also the captain is bounded by the floor and ceiling and can not jump past the game worlds
+    
+One major flaw with how the jump was implemented is that it does not check whether the Captain is on the ground or not when he jumps. This means that the Captain can jump while he is still in the air. If you spam the fire2 input, the Captain can jump up unlimitied amounts of times, essentially allowing him to fly until he hits the top of the level, which is not the intended behavior. To fix this, the MoveJump script would have to check if the Captain's position was on the ground, before adding positive vertical velocity to the Captain's rigidBody. 
 
 ## Code Style ##
 
