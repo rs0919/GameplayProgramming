@@ -21,8 +21,8 @@ If you are in the rare situation where there are two peer-reviewers on a single 
 
 ## Peer-reviewer Information
 
-* *name:* [your name here] 
-* *email:* [your @ucdavis.edu email address here]
+* *name:* Rohith Saravana 
+* *email:* rsaravana@ucdavis.edu
 
 ### Description ###
 
@@ -52,7 +52,7 @@ ___
 
 ### Stage 1 ###
 
-- [ ] Perfect
+- [x] Perfect
 - [ ] Great
 - [ ] Good
 - [ ] Satisfactory
@@ -60,7 +60,7 @@ ___
 
 ___
 #### Justification ##### 
-Write Justification here.
+The position lock camera is implemented so that the player character is always in the center of the screen. Regardless of the direction, the camera follows the player and stays on top of them. The camera also matches the speed of the player and will keep the player centered even if they are going faster. Enabling Draw Logic draws a cross on the center of the screen, which aligns with the player, so that they are always in the middle of the cross. Disabling Draw Logic removes this cross.
 
 ___
 ### Stage 2 ###
