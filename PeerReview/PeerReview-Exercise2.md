@@ -107,12 +107,12 @@ ___
 - [ ] Perfect
 - [ ] Great
 - [ ] Good
-- [ ] Satisfactory
+- [x] Satisfactory
 - [ ] Unsatisfactory
 
 ___
 #### Justification ##### 
-Write Justification here.
+The camera here acts just like the pushbox camera and does not have a speed up effect. Looking at the code, there was an attempt to create the speed up effect, so that the camera begins to move before the players hits the camera edge, but it doesn't seem to be implemented.
 ___
 # Code Style #
 
