@@ -73,20 +73,20 @@ ___
 
 ___
 #### Justification ##### 
-The frame autoscroll camera is implemented so that the camera moves at a constant speed to the right while the player is within the camera box. If the player goes to the right of the box, the camera moves at the same speed as the player. If the player goes to the left of the camera box, then it stays at the left edge at moves at the same speed as the camera. The player can move freely on the y-axis and the camera will follow it if it goes past the camera box. The only issue with this camera is that if the player is on the left edge of the camera box, it will lock to the middle left of the camera box. Even if the the player is at the top left or bottom left, they will be moved to the middle left. This creates a jarring effect, in which the player sometimes seems to teleport.
+The frame autoscroll camera is implemented so that the camera moves at a constant speed to the right while the player is within the camera box. If the player goes to the right of the box, the camera moves at the same speed as the player. If the player goes to the left of the camera box, then it stays at the left edge at moves at the same speed as the camera. The player can move freely on the y-axis and the camera will follow it if it goes past the camera box. Draw logic also creates a visual box that shows the edges of the camera box. The only issue with this camera is that if the player is on the left edge of the camera box, it will lock to the middle left of the camera box. Even if the the player is at the top left or bottom left, they will be moved to the middle left. This creates a jarring effect, in which the player sometimes seems to teleport.
 
 ___
 ### Stage 3 ###
 
 - [ ] Perfect
-- [ ] Great
+- [x] Great
 - [ ] Good
 - [ ] Satisfactory
 - [ ] Unsatisfactory
 
 ___
 #### Justification ##### 
-Write Justification here.
+The position follow camera is implemented correctly, so that the camera lags behind the player when it moves and catches up once the player stops moving. The camera returns to the player in a direct, smooth motion. Draw logic correctly creates a cross in the middle of the screen. The player is in the middle of the cross when not moving, but is off it when they are moving. One issue with this camera is that there is a slight jitteryness when the player is moving at the edge of the camera box. Also, When the player is moving along the y-axis at a faster speed, they can go offscreen.
 
 ___
 ### Stage 4 ###
