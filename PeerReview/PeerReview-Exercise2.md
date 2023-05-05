@@ -134,7 +134,8 @@ Please refer to the first code review template on how to do a permalink.
 ___
 #### Put style guide exemplars ####
 * [Comments follow proper format]()
-* 
+* [namespace]()
+* [camelCase]()
 ___
 #### Put style guide infractures ####
 
@@ -155,4 +156,9 @@ This should be similar to the Code Style justification.
 
 ___
 ### Put best practice observations here ###
+* [classes are small]()
+* 
+___
+### Put best practice infractures here ###
+* 
 ___
