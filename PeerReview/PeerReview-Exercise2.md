@@ -93,13 +93,13 @@ ___
 
 - [ ] Perfect
 - [ ] Great
-- [ ] Good
+- [x] Good
 - [ ] Satisfactory
 - [ ] Unsatisfactory
 
 ___
 #### Justification ##### 
-Write Justification here.
+The Target focus camera correctly moves the camera in the direction that they player moves in, such that the camera is ahead of the player movement. The camera will also match the increase in speed of the player. If the player stops moving, the camera will move back on the center of the player. The camera and player movement are both smooth and there is no jitter. When Draw logic is enabled, a cross is drawn onto the middle of the screen. when the player is moving the cross will be positioned, such that the player is going toward the cross. One big flaw with this camera is that when the player moves vertically, they go off screen. This can make it confusing to know where the player is. The camera box should be smaller so that the camera does not move too far from the player.
 
 ___
 ### Stage 5 ###
