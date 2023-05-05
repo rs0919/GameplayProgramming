@@ -132,6 +132,10 @@ Please refer to the first code review template on how to do a permalink.
 ## Code Style Infractures ##
 
 ___
+#### Put style guide exemplars ####
+* [Comments follow proper format]()
+* 
+___
 #### Put style guide infractures ####
 
 ___
