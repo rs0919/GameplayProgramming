@@ -66,14 +66,14 @@ ___
 ### Stage 2 ###
 
 - [ ] Perfect
-- [ ] Great
+- [x] Great
 - [ ] Good
 - [ ] Satisfactory
 - [ ] Unsatisfactory
 
 ___
 #### Justification ##### 
-Write Justification here.
+The frame autoscroll camera is implemented so that the camera moves at a constant speed to the right while the player is within the camera box. If the player goes to the right of the box, the camera moves at the same speed as the player. If the player goes to the left of the camera box, then it stays at the left edge at moves at the same speed as the camera. The player can move freely on the y-axis and the camera will follow it if it goes past the camera box. The only issue with this camera is that if the player is on the left edge of the camera box, it will lock to the middle left of the camera box. Even if the the player is at the top left or bottom left, they will be moved to the middle left. This creates a jarring effect, in which the player sometimes seems to teleport.
 
 ___
 ### Stage 3 ###
