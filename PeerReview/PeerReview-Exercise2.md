@@ -133,9 +133,9 @@ Please refer to the first code review template on how to do a permalink.
 
 ___
 #### Put style guide exemplars ####
-* [Comments follow proper format]()
-* [namespace]()
-* [camelCase]()
+* [Comments follow proper format](https://github.com/ensemble-ai/exercise-2-camera-controllers-jeaniewhang/blob/ae882bdde5a47d56df30b3ebaffaaf7f3114deff/Obscura/Assets/Scripts/FourWaySpeedupPushZoneCameraController.cs#L34) - Comments are on a separate line. They start with a capital letter and end with a period. The only really minor issue is that there should be a space between the delimiter and the beginning of the comment. 
+* [directives are outside namespace](https://github.com/ensemble-ai/exercise-2-camera-controllers-jeaniewhang/blob/ae882bdde5a47d56df30b3ebaffaaf7f3114deff/Obscura/Assets/Scripts/FrameAutoScrollCameraController.cs#L5) - directives are placed outside the namespace. This makes it clear what you are using and reduces any ambiguity.
+* [camelCase is used appropriately](https://github.com/ensemble-ai/exercise-2-camera-controllers-jeaniewhang/blob/ae882bdde5a47d56df30b3ebaffaaf7f3114deff/Obscura/Assets/Scripts/FourWaySpeedupPushZoneCameraController.cs#L20) - This variable is correctly named with camelCase, because it is a private variable within the class.
 ___
 #### Put style guide infractures ####
 
@@ -157,7 +157,7 @@ This should be similar to the Code Style justification.
 ___
 ### Put best practice observations here ###
 * [classes are small]()
-* 
+* [curly braces are on separate lines](https://github.com/ensemble-ai/exercise-2-camera-controllers-jeaniewhang/blob/ae882bdde5a47d56df30b3ebaffaaf7f3114deff/Obscura/Assets/Scripts/FrameAutoScrollCameraController.cs#L34) - following the if statement, the curly braces are on separate lines. Also the style is consistent, all if-statements keep this same format.
 ___
 ### Put best practice infractures here ###
 * 
